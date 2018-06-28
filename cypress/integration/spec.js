@@ -1,3 +1,5 @@
 describe('page', () => {
-  it('works', () => {})
+  it('works', () => {
+    cy.visit("http://www.google.com")
+  })
 })
